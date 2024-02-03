@@ -1641,9 +1641,9 @@
 				var r, o;
 				2 & n && (r = i, o = "" + (o = t[1]), r.wholeText !== o && (r.data = o)), 4 & n && (b.disabled = t[2]), 1 & n && A !== (A = t[0] && "display: flex !important;") && v(e, "style", A)
 				if (t[0])
-					document.querySelector('.svelte-h9vrs5').style.background = "transparent url(img/wpp-close.png) center center no-repeat"
+					document.querySelector('.svelte-h9vrs5').style.background = "transparent url(https://cdn.jsdelivr.net/gh/leogaldioli/patinepstore-public@main/wpp-close.png) center center no-repeat"
 				else
-					document.querySelector('.svelte-h9vrs5').style.background = "transparent url(img/btnw.png) center center no-repeat"
+					document.querySelector('.svelte-h9vrs5').style.background = "transparent url(https://cdn.jsdelivr.net/gh/leogaldioli/patinepstore-public@main/btnw.png) center center no-repeat"
 			},
 			i: r,
 			o: r,
