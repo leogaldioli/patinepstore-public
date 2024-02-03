@@ -1792,7 +1792,7 @@
 				else if ((getParameterByName('utm_content') == 'vitoria')|| (getParameterByName('utmc') && getParameterByName('utmc').match(/vitoria/)))
 					window.location.href = "https://bit.ly/patinesitepvitoriawpp"
 				else
-					window.location.href = "https://bit.ly/patinepstoresiteb"
+					window.location.href = "https://bit.ly/patinepstoresitescooterb"
 			}), a()
 		}, r, i]
 	}
