@@ -1785,14 +1785,22 @@
 			})(n).finally(() =>
 			{
 				// window.open("https://wa.me/" + i)
+				// if (window.brinde)
+				// window.location.href = "https://bit.ly/patinepstoresitebrinde"
+				// else if (getParameterByName('utmo') == 'instagram')
+				// 	window.location.href = "https://bit.ly/patinepstoreinstab"
+				// else if ((getParameterByName('utm_content') == 'vitoria')|| (getParameterByName('utmc') && getParameterByName('utmc').match(/vitoria/)))
+				// 	window.location.href = "https://bit.ly/patinesitepvitoriawpp"
+				// else
+				// 	window.location.href = "https://bit.ly/patinepstoresitescooterb"
+
 				if (window.brinde)
-				window.location.href = "https://bit.ly/patinepstoresitebrinde"
+					window.location.href = "https://bit.ly/patinepstoresitebrinde"
 				else if (getParameterByName('utmo') == 'instagram')
-					window.location.href = "https://bit.ly/patinepstoreinstab"
-				else if ((getParameterByName('utm_content') == 'vitoria')|| (getParameterByName('utmc') && getParameterByName('utmc').match(/vitoria/)))
-					window.location.href = "https://bit.ly/patinesitepvitoriawpp"
+					window.location.href = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20no%20instagram%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
 				else
-					window.location.href = "https://bit.ly/patinepstoresitescooterb"
+					// window.location.href = "https://bit.ly/patinepstoresiteb"
+					window.location.href = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20no%20instagram%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
 			}), a()
 		}, r, i]
 	}
