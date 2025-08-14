@@ -1769,7 +1769,7 @@
 					url: window.location.toString(),
 					button_owner: r,
 					utmc: getParameterByName('utmc') || '-',
-					utmo: getParameterByName('utmo') || 'site',
+					utmo: getParameterByName('utmo') || window.location.pathname.match(/[^\/]+$/)[0] ||'site',
 					gclid: getParameterByName('gclid') || ''
 				}
 				//return X.a.post("https://whatsfree-ezjajjdcda-ue.a.run.app/whats_conversion", e)
