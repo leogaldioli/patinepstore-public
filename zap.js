@@ -1784,23 +1784,21 @@
 				// TODO enviar post para planilha
 			})(n).finally(() =>
 			{
-				// window.open("https://wa.me/" + i)
-				// if (window.brinde)
-				// window.location.href = "https://bit.ly/patinepstoresitebrinde"
-				// else if (getParameterByName('utmo') == 'instagram')
-				// 	window.location.href = "https://bit.ly/patinepstoreinstab"
-				// else if ((getParameterByName('utm_content') == 'vitoria')|| (getParameterByName('utmc') && getParameterByName('utmc').match(/vitoria/)))
-				// 	window.location.href = "https://bit.ly/patinesitepvitoriawpp"
-				// else
-				// 	window.location.href = "https://bit.ly/patinepstoresitescooterb"
-
-				if (window.brinde)
-					window.location.href = "https://bit.ly/patinepstoresitebrinde"
-				else if (getParameterByName('utmo') == 'instagram')
-					window.location.href = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20no%20instagram%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+				const pagina = window.location.pathname.match(/[^\/]+$/)[0]
+				let urlInstagram = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20no%20instagram%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+				let url = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20no%20site%20novo%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+				if (pagina == 'lp-patinete') { 
+					url = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20na%20p%C3%A1gina%20de%20Patinete%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+				} else if (pagina == 'lp-bike') {
+					url = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20na%20p%C3%A1gina%20de%Bicicleta%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+				} else if (pagina == 'lp-bike') {
+					url = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20na%20p%C3%A1gina%20de%20Scooter%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+				}
+				
+				if (getParameterByName('utmo') == 'instagram')
+					window.location.href = urlInstagram
 				else
-					// window.location.href = "https://bit.ly/patinepstoresiteb"
-					window.location.href = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20no%20instagram%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
+					window.location.href = url
 			}), a()
 		}, r, i]
 	}
