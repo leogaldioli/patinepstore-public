@@ -1791,7 +1791,7 @@
 					url = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20na%20p%C3%A1gina%20de%20Patinete%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
 				} else if (pagina == 'lp-bike') {
 					url = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20na%20p%C3%A1gina%20de%Bicicleta%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
-				} else if (pagina == 'lp-bike') {
+				} else if (pagina == 'lp-scooter') {
 					url = "https://api.whatsapp.com/send?phone=554491024396&text=Entrei%20na%20p%C3%A1gina%20de%20Scooter%20de%20voc%C3%AAs%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
 				}
 				
